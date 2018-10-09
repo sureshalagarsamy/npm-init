@@ -41,3 +41,14 @@ Please note that your package.json will update only updated. See the code sample
 ```
 
 Next time when we do npm `init -y` this will set the author name as `Your name`, email as `firstname.lastname@domain.com`, url as `http://example.com/` and license as `MIT`.
+
+
+### globally installed packages
+
+<b>Get list of globally installed packages</b>
+
+```json
+npm list -g --depth 0
+```
+
+![image](https://user-images.githubusercontent.com/6780840/46667977-ce5f3f80-cbe8-11e8-82e9-72b623fe571d.png)
